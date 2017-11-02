@@ -1,6 +1,6 @@
 # Runtime error, rule '&#8230;' in module '&#8230;' does not match
 
-Keywords: runtime error, rule does not match, rule % does not match, rule % in module % does not match
+Keywords: runtime error; rule does not match; rule % does not match; rule % in module % does not match
 
 This happens when you evaluate the undefined part of a partial function.
 In particular, this happens when you have a function of which the patterns are
