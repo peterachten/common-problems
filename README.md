@@ -12,7 +12,7 @@ See [below](#contributing) for contribution details.
 
 ### Compile-time errors
 
-- [Relocation &#8230; cannot be used when making a shared object](/relocation.md)
+- [Linker error, relocation &#8230; cannot be used when making a shared object](/relocation.md)
 
 ### Run-time errors
 

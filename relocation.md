@@ -12,7 +12,7 @@ return an error.
 
 ## Examples
 
-Any problem may fail to compile with the error:
+Any program may fail to compile with the error:
 
 ```text
 /usr/bin/ld: /tmp/linkerXXXXXX: relocation R_X86_64_32S against `.data' can not be used when making a shared object; recompile with -fPIC
