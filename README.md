@@ -15,6 +15,7 @@ Also if you don't know the solution yet, you can create a stub page.
 
 - [Floating point exception](/floating-point-exception.md)
 - [Heap full](/heap-full.md)
+- [Run time error, rule '&#8230;' in module '&#8230;' does not match](/rule-does-not-match.md)
 - [Stack overflow](/stack-overflow.md)
 
 [Cloogle]: https://cloogle.org
