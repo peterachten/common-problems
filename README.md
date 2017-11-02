@@ -33,6 +33,8 @@ adhere to the below format. This ensures the files are correctly indexed by
 [Cloogle][]. You can use the existing files for examples.
 
 The list above contains links to markdown files in the repository.
+Don't forget to update the list.
+The list is sorted alphabetically.
 We do not use directory structure.
 
 The markdown files should look like:
