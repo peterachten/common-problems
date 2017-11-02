@@ -9,6 +9,11 @@ Also if you don't know the solution yet, you can create a stub page.
 
 ## The list
 
+### Compile-time errors
+
+### Run-time errors
+
+- [Floating point exception](/floating-point-exception.md)
 - [Heap full](/heap-full.md)
 - [Stack overflow](/stack-overflow.md)
 
