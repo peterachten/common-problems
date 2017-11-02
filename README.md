@@ -12,10 +12,12 @@ See [below](#contributing) for contribution details.
 
 ### Compile-time errors
 
-- [_SystemArray not imported](/_SystemArray-needed.md)
+- [_SystemArray not imported](/_SystemArray-not-imported.md)
+- [_SystemStrictLists not imported](/_SystemStrictLists-not-imported.md)
 - [dynamic used but support for dynamics not enabled](/no-dynamics.md)
 - [Linker error, relocation &#8230; cannot be used when making a shared object](/relocation.md)
 - [Run time error, rule &#8230; in module 'elf_relocations' does not match](/elf-relocations-does-not-match.md)
+- [StdEnum not imported](/StdEnum-not-imported.md)
 - [TC class undefined](/no-dynamics.md)
 
 ### Run-time errors
