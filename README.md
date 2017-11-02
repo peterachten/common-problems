@@ -12,7 +12,7 @@ See [below](#contributing) for contribution details.
 
 ### Compile-time errors
 
-- None yet ([contribute!](#contributing))
+- [Relocation](/relocation.md)
 
 ### Run-time errors
 
