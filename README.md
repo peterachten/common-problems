@@ -69,6 +69,7 @@ It is capable of rendering `` `code` `` and multiline code blocks (see under
 ### Keywords
 
 - Keywords are semicolon-separated.
+- Don't add a final semicolon.
 - Keywords are case-insensitive.
 - To match any string, use `%` (e.g. [here](/rule-does-not-match.md)).
 - To be found in [Cloogle][], the search query must match at least one of the
@@ -76,10 +77,12 @@ It is capable of rendering `` `code` `` and multiline code blocks (see under
 
 ### Solutions
 
+- Solutions are optional, but the `## Solutions` header is required.
 - Continue solutions with a double space on the next line.
 
 ### Examples
 
+- Examples are optional, but the `## Examples` header is required.
 - Put code examples between `` ```clean `` and `` ``` ``.
 - Put long monospaced text between `` ```text `` and `` ``` ``.
 
