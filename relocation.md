@@ -1,6 +1,6 @@
 # Linker error, relocation '&#8230;' against \`.data' can not be used when making a shared object
 
-Keywords: linker error; relocation; nonrepresentable section on output
+Keywords: linker error; relocation; nonrepresentable section on output; linker error, relocation % cannot be used when making a shared object
 
 Using some newer versions of `gcc` cause the linking of the Clean program to
 return an error.
