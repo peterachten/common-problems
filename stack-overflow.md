@@ -18,8 +18,16 @@ stack becomes too large.
 ## Examples
 
 ```clean
-import StdEnv
-Start = foldr (+) 0 (repeat 0)
+Start = foldr (+) 0 (repeat 1)
 ```
 
 This is an endless recursion, since `repeat` generates an infinite list.
+
+---
+
+```clean
+Start = foldr (+) 0 (repeatn 100000 1)
+```
+
+This does not work with the default 500kB stack, but does work with a 1MB
+stack.
