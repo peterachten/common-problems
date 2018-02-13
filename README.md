@@ -23,6 +23,7 @@ See [below](#contributing) for contribution details.
 - [Start rule cannot be overloaded](/overloading-Start.md)
 - [StdEnum not imported](/StdEnum-not-imported.md)
 - [TC class undefined](/no-dynamics.md)
+- [Unable to get short path name](/short-path-name.md)
 
 ### Run-time errors
 
