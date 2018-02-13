@@ -14,20 +14,19 @@ non-exhaustive.
 ## Examples
 
 ```clean
-:: MyType = A | B | C
+:: Letter = A | B | C
 
-instance toString MyType
-where
-	toString A = "A"
-	toString B = "B"
+next :: Letter -> Letter
+next A = B
+next B = C
 
-Start = toString C
+Start = next C
 ```
 
 This yields:
 
 ```text
-Run time error, rule 'toString;1' in module 'test' does not match
+Run time error, rule 'next' in module 'test' does not match
 ```
 
-The solution is to either implement `toString` for `C` or not call it with `C`.
+The solution is to either implement `next` for `C` or not call it with `C`.
