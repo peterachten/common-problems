@@ -8,8 +8,8 @@ lower-case).
 
 ## Solutions
 
-- Make sure that the function name of the function definition following the type signature are 
-exactly identical.
+- Make sure that the function name of the function definition following the type signature are
+  exactly identical.
 
 ## Examples
 
@@ -17,3 +17,6 @@ exactly identical.
 my_function :: Int -> Int
 my_Function x = x
 ```
+
+Here, the implementation of `my_function` has a capital `F`, which the Clean
+compiler interprets as a new (untyped) function.
