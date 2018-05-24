@@ -1,8 +1,7 @@
-# Common problems with Clean programs
+# Common problems with Clean programs [![][travis badge]][travis]
 
 This is a list of problems commonly encountered with Clean programs.
-You can search in this list or search for errors and faults on [Cloogle][]
-(coming soon).
+You can search in this list or search for errors and faults on [Cloogle][].
 
 Please contribute by adding more examples and errors.
 Also if you don't know the solution yet, you can create a stub page.
@@ -103,3 +102,5 @@ It is capable of rendering `` `code` `` and multiline code blocks (see under
 - Put long monospaced text between `` ```text `` and `` ``` ``.
 
 [Cloogle]: https://cloogle.org
+[travis badge]: https://api.travis-ci.org/clean-cloogle/common-problems.svg?branch=master
+[travis]: https://travis-ci.org/clean-cloogle/common-problems
