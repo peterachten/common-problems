@@ -26,6 +26,10 @@ See [below](#contributing) for contribution details.
 - [TC class undefined](/no-dynamics.md)
 - [Unable to get short path name](/short-path-name.md)
 
+### Compile-time warnings
+
+- [alternative will never match](/_alternative_will_never_match.md)
+
 ### Run-time errors
 
 - [Floating point exception](/floating-point-exception.md)
