@@ -30,3 +30,24 @@ Run time error, rule 'next' in module 'test' does not match
 ```
 
 The solution is to either implement `next` for `C` or not call it with `C`.
+
+---
+
+```clean
+:: Letter = A | B | C
+
+next :: Letter -> Letter
+next A = B
+next B = C
+Next C = A   // accidently used different name for function, Clean thinks this is a new function without a type
+
+Start = next C
+```
+
+This yields:
+
+```text
+Run time error, rule 'next' in module 'test' does not match
+```
+
+The solution is to rename Next into next.
