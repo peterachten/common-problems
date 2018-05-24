@@ -14,3 +14,5 @@ directory closer to the root of the disk.
   the disk (e.g., `C:\Clean`).
 
 ## Examples
+
+N/A
